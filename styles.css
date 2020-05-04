@@ -1,0 +1,147 @@
+html, body, form {
+    font-family: Helvetica, sans-serif;
+    color: whitesmoke;
+    margin: auto;
+    height: 100%;
+}
+
+body {
+    background-color: #212121;
+    text-align: center;
+    font-weight: 500;
+}
+
+h1 {
+    padding-top: 7%;
+}
+
+div {
+    display: block;
+}
+
+/* .logo {
+    padding-bottom: 50px;
+} */
+
+.main-img {
+    border-radius: 8px;
+    padding-bottom: 50px;
+}
+
+.label-url {
+    font-size: 18px;
+    position: relative;
+}
+
+.input-form {
+    margin-bottom: 70px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.input-url {
+    background-color: white;
+    border: 3px solid #f48fb1;
+    border-radius: 4px;
+    margin-right: 8px;
+    min-width: 426px;
+    padding: 12px 12px 12px 12px;
+    position: relative;
+    font-weight: 500;
+    text-align: left;
+    outline: none;
+}
+
+.input-url:focus {
+    border-color: #f848a0;
+}
+
+/* .download-button-wrapper {
+    padding-top: 20px;
+} */
+
+.download-button {
+    background-color: #f48fb1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    padding: 12px 14px;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    width: 120px;
+    font-family: Helvetica, sans-serif;
+    margin-right: 8px;
+    margin-top: 8px;
+
+}
+
+.download-button:hover {
+    background-color: #f48fb1b2;
+}
+
+.download-button:active {
+    background-color: #f48fb132;
+}
+
+.select-button {
+    background-color: #f48fb1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    padding: 12px 14px;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    font-family: Helvetica, sans-serif;
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 160px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-button:hover {
+    background-color: #f48fb1b2;
+}
+
+.select-button:active {
+    background-color: #f48fb132;
+}
+
+.select-button:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    background-color: tomato;
+}
+
+footer a {
+    color: #f48fb1;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+    padding: 18px;
+}
+
+.small-font {
+    font-size: 12px;
+}
+
+.medium-font {
+    font-size: 15px;
+}
+
+.large-font {
+    font-size: 24px;
+}

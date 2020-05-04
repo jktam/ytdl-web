@@ -1,0 +1,81 @@
+<!doctype html>
+    <html lang="en-US">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="icon" href="favicon.png" type="image/gif">
+            <link rel="stylesheet" href="styles.css">
+            <title>
+                webui for ytdl-org/youtube-dl.
+            </title>
+        </head>
+
+        <body>
+            <h1>james' web interface for youtube-dl.</h1>
+            <h3>(WIP)</h3>
+
+            <div>
+                <img class="main-img" src="yt-james.png" width="40%" height="40%">
+            </div>
+
+            <div class="main">
+                    <label class="label-url" for="url">
+                        download youtube video or audio.
+                    </label>
+        
+                    <div class="input-form">
+                        <input class="input-url medium-font" placeholder="e.g. https://www.youtube.com/watch?v=yqtCGojXEpM">
+
+                        <select class="select-button large-font">
+                            <option value="default">
+                                default.
+                            </option>
+                            <option value="best">
+                                best quality.
+                            </option>
+                            <option value="audio">
+                                audio only.
+                            </option>
+                        </select>
+
+                        <button class="download-button large-font" type="submit" name="grab-it">grab it.</button>
+                       <!-- <button class="select-button large-font" name="select">default.</button> -->
+                        <!-- <div class="dropdown">
+
+                        </div>  -->
+
+
+                        <!-- <button class="video2-button large-font" type="submit" name="video2">video2.</button>
+                        <button class="audio-button large-font" type="submit" name="audio">audio.</button> -->
+                    </div>
+                <div class="result"></div>
+            </div>
+
+            <footer class="small-font">
+                <div class="footer-wrapper">
+                    <ul>
+                        <li>
+                            code on
+                            <a rel="noopener" target="_blank" href="https://github.com/jktam/ytdl-web">
+                                github
+                            </a>
+                            .
+                        </li>
+                    |
+                        <li>
+                            uses tech by
+                            <a target="blank" href="https://github.com/ytdl-org/youtube-dl">
+                                ytdl-org/youtube-dl
+                            </a>
+                            .
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+
+            <script src="jquery-3.5.0.min.js"></script>
+            <script src="script.js"></script>
+
+        </body>
+    </html>
